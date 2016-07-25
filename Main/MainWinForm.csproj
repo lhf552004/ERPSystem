@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B54C7D54-62EF-4BAD-B9A7-09068C36D309}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Runtime\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutSystem.designer.cs">
+      <DependentUpon>AboutSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accuount\ExpectPayAccountWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accuount\ExpectPayAccountWinForm.designer.cs">
+      <DependentUpon>ExpectPayAccountWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accuount\ExpectReceiptAccountWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accuount\ExpectReceiptAccountWinForm.designer.cs">
+      <DependentUpon>ExpectReceiptAccountWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\AgentManagementWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agent\AgentManagementWinForm.designer.cs">
+      <DependentUpon>AgentManagementWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogWinForm.designer.cs">
+      <DependentUpon>DialogWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dispatch\DispatchWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dispatch\DispatchWinForm.designer.cs">
+      <DependentUpon>DispatchWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExitConfirmWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitConfirmWinForm.designer.cs">
+      <DependentUpon>ExitConfirmWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWinForm.designer.cs">
+      <DependentUpon>MainWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductData.cs" />
+    <Compile Include="Product\ProductManagementWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\ProductManagementWinForm.designer.cs">
+      <DependentUpon>ProductManagementWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutSystem.resx">
+      <DependentUpon>AboutSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accuount\ExpectPayAccountWinForm.resx">
+      <DependentUpon>ExpectPayAccountWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accuount\ExpectReceiptAccountWinForm.resx">
+      <DependentUpon>ExpectReceiptAccountWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agent\AgentManagementWinForm.resx">
+      <DependentUpon>AgentManagementWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogWinForm.resx">
+      <DependentUpon>DialogWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dispatch\DispatchWinForm.resx">
+      <DependentUpon>DispatchWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitConfirmWinForm.resx">
+      <DependentUpon>ExitConfirmWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWinForm.resx">
+      <DependentUpon>MainWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\ProductManagementWinForm.resx">
+      <DependentUpon>ProductManagementWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepit\RecepitWinForm.resx">
+      <DependentUpon>RecepitWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics\ProductStatisticsWinForm.resx">
+      <DependentUpon>ProductStatisticsWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Recepit\RecepitWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepit\RecepitWinForm.designer.cs">
+      <DependentUpon>RecepitWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\ProductStatisticsWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics\ProductStatisticsWinForm.designer.cs">
+      <DependentUpon>ProductStatisticsWinForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Add.ico" />
+    <None Include="Icons\Exit.ico" />
+    <None Include="Icons\LogIn.ico" />
+    <None Include="Icons\LogOut.ico" />
+    <None Include="Icons\Buhler.ico" />
+    <Content Include="Icons\Ok.ico" />
+    <Content Include="Icons\Remove.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

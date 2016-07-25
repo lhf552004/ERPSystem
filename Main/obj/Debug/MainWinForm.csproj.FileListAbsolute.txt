@@ -1,0 +1,7 @@
+E:\ERPSystem\Main\bin\Debug\Main.exe
+E:\ERPSystem\Main\bin\Debug\Main.pdb
+E:\ERPSystem\Main\obj\Debug\ResolveAssemblyReference.cache
+E:\ERPSystem\Main\obj\Debug\Main.Properties.Resources.resources
+E:\ERPSystem\Main\obj\Debug\MainWinForm.csproj.GenerateResource.Cache
+E:\ERPSystem\Main\obj\Debug\Main.exe
+E:\ERPSystem\Main\obj\Debug\Main.pdb

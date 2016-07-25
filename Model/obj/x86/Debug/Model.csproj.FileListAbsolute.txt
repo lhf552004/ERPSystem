@@ -1,0 +1,7 @@
+E:\ERPSystem\Model\bin\x86\Debug\ERP.Model.dll
+E:\ERPSystem\Model\bin\x86\Debug\ERP.Model.pdb
+E:\ERPSystem\Model\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\ERPSystem\Runtime\Debug\ERP.Model.dll
+E:\ERPSystem\Runtime\Debug\ERP.Model.pdb
+E:\ERPSystem\Model\obj\x86\Debug\ERP.Model.dll
+E:\ERPSystem\Model\obj\x86\Debug\ERP.Model.pdb

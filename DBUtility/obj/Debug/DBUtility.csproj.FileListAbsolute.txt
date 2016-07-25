@@ -1,0 +1,9 @@
+E:\ERPSystem\DBUtility\bin\Debug\ERP.DBUtility.dll
+E:\ERPSystem\DBUtility\bin\Debug\ERP.DBUtility.pdb
+E:\ERPSystem\DBUtility\bin\Debug\IBatisNet.Common.dll
+E:\ERPSystem\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+E:\ERPSystem\DBUtility\bin\Debug\MySql.Data.dll
+E:\ERPSystem\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\ERPSystem\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\ERPSystem\DBUtility\obj\Debug\ERP.DBUtility.dll
+E:\ERPSystem\DBUtility\obj\Debug\ERP.DBUtility.pdb

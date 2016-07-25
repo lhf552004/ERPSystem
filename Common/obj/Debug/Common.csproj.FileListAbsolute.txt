@@ -1,0 +1,12 @@
+E:\ERPSystem\Common\bin\Debug\ERP.Common.dll
+E:\ERPSystem\Common\bin\Debug\ERP.Common.pdb
+E:\ERPSystem\Common\bin\Debug\COM.Excel.dll
+E:\ERPSystem\Common\bin\Debug\Excel.dll
+E:\ERPSystem\Common\bin\Debug\OpenSmtp.dll
+E:\ERPSystem\Common\bin\Debug\OWC10Chart.dll
+E:\ERPSystem\Common\bin\Debug\office.dll
+E:\ERPSystem\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\ERPSystem\Common\bin\Debug\office.xml
+E:\ERPSystem\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\ERPSystem\Common\obj\Debug\ERP.Common.dll
+E:\ERPSystem\Common\obj\Debug\ERP.Common.pdb
